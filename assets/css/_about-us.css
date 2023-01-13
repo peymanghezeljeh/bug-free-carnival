@@ -1,0 +1,35 @@
+/* start about-us section  */
+.about-us-left-side{
+    background-color: #f6f6f6;
+    padding: 60px;
+}
+.about-us-left-side h4{ 
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: 18px;
+    font-size: 18px;
+    color: rgb(36, 36, 36);
+}
+.about-us-left-side p{
+    padding: 26px;
+    font-size: 17px;
+    line-height: 32px;
+    color: rgb(46, 42, 42);
+}
+.about-us-left-side a{
+    background-color: orange;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: #fff;
+    float: left;
+    transition: .5s ease;
+}
+
+.about-us-left-side a:hover{
+    border-radius: 0 10px 0 10px;
+}
+@media only screen and (max-width: 992px) {
+    .about-us-right-side{
+        display: none;
+    }
+}
+ /* end about-us section */

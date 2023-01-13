@@ -1,0 +1,47 @@
+/* start teacher styles */
+.teacher-section-wrapper{
+    background-image: url(../img/e-bg.jpg);
+
+}
+.teacher-text-wrapper{
+    background-color: rgb(255, 255, 255);
+    top: 97%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: auto;
+    box-shadow: 0px 3px 5px 0px rgb(183 182 182);
+    border-radius: 2px;
+}
+.teacher-text-wrapper span{
+    background-color: orange;
+    color: #fff;
+    padding: 2px 18px;
+}
+.teacher-text-wrapper h3{
+    margin: 30px 0 80px 0;
+}
+.teacher-text-wrapper a{
+    border: 2px solid orange;
+    padding: 5px;
+    text-align: center;
+    width: 100px;
+    display: inline-block;
+    margin-bottom: 10px;
+    transition: .5s ease;
+    font-size: 16px;
+}
+.teacher-text-wrapper a:hover{
+    background-color: orange;
+    color: #fff;
+}
+@media only screen and (max-width:700px){
+    .teacher-text-wrapper h3{
+    margin: 30px 0 30px 0;
+    font-size: 16px;
+}
+    .teacher-text-wrapper a{
+        font-size: 16px;
+    }
+}
+/* end teacher styles */

@@ -1,0 +1,113 @@
+/* start footer styles */
+.footer-section-bg {
+  background-color: #041121;
+  min-height: 300px;
+}
+.footer-section-wrapper .copy-right {
+  background-color: #041121;
+  color: #6e6e6e;
+  border-top: 1px solid #232323;
+  padding-top: 10px;
+  font-size: 15px;
+}
+.footer-section-wrapper .desc {
+  color: rgb(230, 230, 230);
+}
+.footer-section-wrapper .desc i {
+  color: greenyellow;
+  font-size: 35px;
+  transform: rotate(-20deg);
+  padding: 10px;
+  vertical-align: -6px;
+}
+.footer-section-wrapper .desc h5 {
+  display: inline;
+  font-size: 16px;
+}
+.footer-section-wrapper .desc p {
+  color: #949494;
+  font-size: 17px;
+}
+.footer-section-wrapper .service h5 {
+  color: #949494;
+  font-size: 16px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #303030;
+  padding-top: 37px;
+}
+.footer-section-wrapper .service ul li {
+  margin: 2px 0 10px 0;
+}
+.footer-section-wrapper .service ul li a {
+  font-size: 14px;
+  transition: 0.5s ease;
+  color: #949494;
+}
+.footer-section-wrapper .service li a:hover {
+  color: yellowgreen;
+  padding-right: 15px;
+  cursor: pointer;
+}
+.footer-section-wrapper .service li a::before {
+  content: "\276f";
+  padding-left: 10px;
+  vertical-align: -1px;
+}
+.footer-section-wrapper .contact-us h5 {
+  color: #949494;
+  font-size: 16px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #303030;
+  padding-top: 37px;
+}
+.footer-section-wrapper .contact-us ul {
+  margin: 10px 30px;
+}
+.footer-section-wrapper .contact-us ul li {
+  display: inline;
+  padding-right: 20px;
+  color: #949494;
+  transition: 0.5s ease;
+}
+.footer-section-wrapper .contact-us ul li:hover {
+  color: #fff;
+}
+.footer-section-wrapper .contact-us form {
+  margin-top: 50px;
+}
+.footer-section-wrapper .contact-us form input[type="submit"] {
+  padding: 10px;
+  background-color: orange;
+  color: #fff;
+  border: none;
+  height: 40px;
+  outline: none;
+  cursor: pointer;
+}
+.footer-section-wrapper .contact-us form input[type="text"] {
+  width: 80%;
+  height: 40px;
+  padding: 10px;
+  outline: none;
+}
+.footer-section-wrapper .contact-us-form h5 {
+  color: #949494;
+  font-size: 16px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #303030;
+  padding-top: 37px;
+}
+.footer-section-wrapper .contact-us-form {
+  color: #949494;
+}
+.footer-section-wrapper .contact-us-form ul {
+  padding: 10px;
+}
+.footer-section-wrapper .contact-us-form ul li {
+  margin-bottom: 15px;
+}
+.footer-section-wrapper .contact-us-form ul li i {
+  padding-left: 15px;
+  vertical-align: -3px;
+}
+/* end footer styles */

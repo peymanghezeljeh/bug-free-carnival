@@ -1,0 +1,16 @@
+/* start stat styles */
+.stat-section-wrapper{
+    height: 250px;
+}
+.stat-section-wrapper img{
+   margin-top: 25px; 
+}
+.stat-section-wrapper .count {
+   font-size: 16px;
+   margin: 5px;
+}
+.stat-section-wrapper .count-title {
+   font-size: 16px;
+   
+}  
+/* end stat styles */
