@@ -1,53 +1,53 @@
 /* start navbar section styles */
 .active {
-    border-bottom: 2px solid #06a3f4;
+  border-bottom: 2px solid orange;
 }
-.nav{
-    background-color: #fff;
-    overflow: hidden;
-    box-shadow: 1px 1px 1px #efefef;
-    position: sticky;
-    top: 0;
-    z-index: 999;
+.nav {
+  background-color: #fff;
+  overflow: hidden;
+  box-shadow: 1px 1px 1px #efefef;
+  position: sticky;
+  top: 0;
+  z-index: 999;
 }
-.nav .brand{
-    color: orange;
-    font-size: 33px;
+.nav .brand {
+  color: orange;
+  font-size: 33px;
 }
-.nav a{
-    float: right;
-    color: rgb(46, 41, 41);
-    padding: 5px 16px;
-    text-align: center;
-    font-size: 16px;
-    line-height: 50px;
+.nav a {
+  float: right;
+  color: rgb(46, 41, 41);
+  padding: 5px 16px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 50px;
 }
-.nav a:hover{
-    border-bottom: 2px solid orange;
+.nav a:hover {
+  border-bottom: 2px solid orange;
 }
-.icon{
+.icon {
+  display: none;
+}
+@media only screen and (max-width: 770px) {
+  .nav a:not(:first-child) {
     display: none;
-}
-@media only screen and (max-width:770px){
-    .nav a:not(:first-child){
-        display: none;
-    }
-    .nav a.icon{
-        display: block;
-        float: left;
-    }
-    .nav.responsive{
-        position: relative;
-    }
-    .nav.responsive a.icon{
-        position: absolute;
-        top: 0;
-        left: 0;
-    }
-    .nav.responsive a{
-        float: none;
-        display: block;
-        text-align: right;
-    }
+  }
+  .nav a.icon {
+    display: block;
+    float: left;
+  }
+  .nav.responsive {
+    position: relative;
+  }
+  .nav.responsive a.icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .nav.responsive a {
+    float: none;
+    display: block;
+    text-align: right;
+  }
 }
 /* end navbar section styles */
